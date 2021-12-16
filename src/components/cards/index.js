@@ -21,12 +21,22 @@ class Cards extends Component {
     renderCardImages(cardList) {
         return cardList.map(card => ({...card, isFiltered: this.filterCard(card)})).sort((a, b) => {
             return a.isFiltered && !b.isFiltered ? -1 : !a.isFiltered && b.isFiltered ? 1 : a.name < b.name ? -1 : 1;
-        }).map(card => {
+        }).map((card, index) => {
             const isSelected = this.props.selected.length > 0 ? card.isFiltered : true;
+            const cardKey = `card-${index}`;
             return (
-                <div className={'image'}>
+                <div className={'image'} key={cardKey}>
                     <div class={classnames({ 'card-name': true, 'filtered-out': this.props.selected.length > 0 && !card.isFiltered, long: card.long })}>{card.name}</div>
-                    <div className="card-items">{card.items.map(item => (<div onClick={() => this.props.toggle(item)} className={classnames({ selected: this.props.selected.includes(item) })}>{item}</div>))}</div>
+                    <div className="card-items">{card.items.map((item, itemIndex) => {
+                        return (
+                            <div
+                                onClick={() => this.props.toggle(item)}
+                                className={classnames({ selected: this.props.selected.includes(item) })}
+                                key={`${cardKey}-item-${itemIndex}`}>
+                                {item}
+                            </div>
+                        );
+                    })}</div>
                     <img src={`../../assets/cards/${isSelected ? card.image : card.filteredImage}`} title={card.name} onClick={() => this.onClickToggleCard(card.items)} />
                 </div>
             );
