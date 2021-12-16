@@ -3,7 +3,7 @@ import style from './style.css';
 const Footer = () => (
     <footer className={style.footer}>
         <div className={style.footerLeft}>
-            <span>Developed by <a href="https://github.com/connorjburton">Connor</a> &amp; <a href="https://github.com/Jimsalad">James</a></span>
+            <span>Developed by <a href="https://github.com/cburton-godaddy">Connor</a> &amp; <a href="https://github.com/Jimsalad">James</a></span>
         </div>
         <div className={style.footerCenter}>Card &amp; game assets &copy;CAPCOM CO., LTD.</div>
         <div className={style.footerRight}>
