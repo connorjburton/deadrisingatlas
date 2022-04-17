@@ -35,5 +35,5 @@ For detailed explanation on how things work, checkout the [CLI Readme](https://g
 
 ## Credits
 
-Card & game assets &copy;CAPCOM CO., LTD..
+Card & game assets &copy;CAPCOM CO., LTD.
 Willamette Rising Font &copy;TracerTong Fontworks
