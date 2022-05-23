@@ -11,10 +11,6 @@ const Footer = () => (
                 <img src="../../assets/github.svg" height="32" width="32" alt="Github Repo" />
             </a>
         </div>
-        <script async src='https://cdn.panelbear.com/analytics.js?site=AMsMdvX0CHk' />
-        <script>
-            {'window.panelbear = window.panelbear || function(){ window.panelbearQ = window.panelbearQ || []; panelbearQ.push(arguments); }; panelbear(\'config\', { site: \'AMsMdvX0CHk\' });'}
-        </script>
 	</footer>
 );
 
