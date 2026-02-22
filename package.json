@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "dr2combos",
   "version": "0.0.0",
   "license": "MIT",
@@ -26,7 +25,7 @@
     "jest-preset-preact": "^4.0.2",
     "preact-cli": "^3.3.5",
     "preact-render-spy": "^1.2.1",
-    "sirv-cli": "^2.0.2"
+    "sirv-cli": "^2.0.2",
     "classnames": "^2.2.6",
     "lodash.orderby": "^4.6.0",
     "preact": "^10.6.6",
