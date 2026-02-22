@@ -37,7 +37,7 @@ class Cards extends Component {
                             </div>
                         );
                     })}</div>
-                    <img src={`../../assets/cards/${isSelected ? card.image : card.filteredImage}`} title={card.name} onClick={() => this.onClickToggleCard(card.items)} />
+                    <img src={`/assets/cards/${isSelected ? card.image : card.filteredImage}`} title={card.name} onClick={() => this.onClickToggleCard(card.items)} />
                 </div>
             );
         })
