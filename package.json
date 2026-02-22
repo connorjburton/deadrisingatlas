@@ -27,8 +27,6 @@
     "preact-cli": "^3.3.5",
     "preact-render-spy": "^1.2.1",
     "sirv-cli": "^2.0.2"
-  },
-  "dependencies": {
     "classnames": "^2.2.6",
     "lodash.orderby": "^4.6.0",
     "preact": "^10.6.6",
