@@ -23,7 +23,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "jest-preset-preact": "^4.0.2",
-    "preact-cli": "^3.3.5",
+    "preact-cli": "^3.5.1",
     "preact-render-spy": "^1.2.1",
     "sirv-cli": "^2.0.2",
     "classnames": "^2.2.6",
