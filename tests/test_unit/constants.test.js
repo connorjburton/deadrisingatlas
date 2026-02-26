@@ -1,4 +1,4 @@
-import Constants from '../src/constants.js';
+import Constants from '../../src/constants.js';
 
 describe('Constants', () => {
 	describe('ITEMS', () => {

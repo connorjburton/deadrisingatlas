@@ -37,7 +37,7 @@
       "<rootDir>/tests/__mocks__/setupTests.js"
     ],
     "testMatch": [
-      "<rootDir>/tests/*.js"
+      "<rootDir>/tests/test_unit/**/*.js"
     ]
   }
 }
